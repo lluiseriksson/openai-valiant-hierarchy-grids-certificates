@@ -1,0 +1,32 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C04",
+  "paper_reference": "Fig. 2 & Lemma 3.2 (p. 7-8): Path A-B-D with C={B}, ||a_C||^2=2, b=1 supply-site saving",
+  "mode": "state_sum_and_euclidean_price",
+  "payload": {
+    "submode": "movable_supply_site_saving",
+    "num_vertices": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "cut_C": [
+      1
+    ],
+    "sqrt_b_int": 1,
+    "log_q_w": [
+      64,
+      1
+    ],
+    "log_R": [
+      24,
+      1
+    ]
+  }
+}

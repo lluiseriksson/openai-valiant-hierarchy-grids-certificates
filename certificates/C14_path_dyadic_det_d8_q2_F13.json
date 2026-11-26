@@ -1,0 +1,68 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C14",
+  "paper_reference": "Fig. 3, Lemma 6.3 & Sec. 6.3 (p. 13-16): d=8 dyadic scale placement & 15x15 cofactor determinant over F_13",
+  "mode": "path_multiscale_det_and_minors",
+  "payload": {
+    "submode": "dyadic_scale_placement_and_det",
+    "path_vertices_d": 8,
+    "tau_leaf_order": [
+      0,
+      4,
+      2,
+      6,
+      1,
+      5,
+      3,
+      7
+    ],
+    "field_prime": 13,
+    "alphabet_q": 2,
+    "path_tables": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1,
+        4,
+        5
+      ],
+      [
+        3,
+        2,
+        1,
+        4
+      ],
+      [
+        1,
+        5,
+        2,
+        3
+      ],
+      [
+        4,
+        1,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        5,
+        1
+      ],
+      [
+        1,
+        2,
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ]
+    ]
+  }
+}

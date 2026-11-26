@@ -1,0 +1,104 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C11",
+  "paper_reference": "Lemma 5.2 (p. 10-11): Exact ABP prefix/suffix tensor decomposition A(f)=sum_{|U|=1} T_U over F_7",
+  "mode": "binary_tree_telescoping_and_abp",
+  "payload": {
+    "submode": "abp_prefix_rank_decomposition",
+    "field_prime": 7,
+    "num_slots_d": 3,
+    "slot_dim_q": 2,
+    "prefix_size_k": 1,
+    "abp_num_nodes": 7,
+    "abp_edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "const_term": 1,
+        "slot": 0,
+        "var_idx": 0,
+        "coeff": 2
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "const_term": 0,
+        "slot": 0,
+        "var_idx": 1,
+        "coeff": 3
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "const_term": 2,
+        "slot": 1,
+        "var_idx": 0,
+        "coeff": 4
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "const_term": 0,
+        "slot": 1,
+        "var_idx": 1,
+        "coeff": 1
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "const_term": 0,
+        "slot": 1,
+        "var_idx": 1,
+        "coeff": 5
+      },
+      {
+        "u": 3,
+        "v": 6,
+        "const_term": 1,
+        "slot": 2,
+        "var_idx": 0,
+        "coeff": 2
+      },
+      {
+        "u": 3,
+        "v": 6,
+        "const_term": 0,
+        "slot": 2,
+        "var_idx": 1,
+        "coeff": 6
+      },
+      {
+        "u": 0,
+        "v": 4,
+        "const_term": 0,
+        "slot": 2,
+        "var_idx": 0,
+        "coeff": 5
+      },
+      {
+        "u": 0,
+        "v": 4,
+        "const_term": 1,
+        "slot": 2,
+        "var_idx": 1,
+        "coeff": 1
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "const_term": 0,
+        "slot": 0,
+        "var_idx": 1,
+        "coeff": 4
+      },
+      {
+        "u": 5,
+        "v": 6,
+        "const_term": 0,
+        "slot": 1,
+        "var_idx": 0,
+        "coeff": 3
+      }
+    ]
+  }
+}

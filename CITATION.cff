@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or verification suite, please cite it as below."
+title: "Constructive Graph State-Sum, Isoperimetric, and Dyadic-Placement Certificates for Separating Valiant's Algebraic Hierarchy"
+authors:
+  - family-names: "Eriksson"
+    given-names: "Lluis"
+    email: "lluis@airr.science"
+version: "1.0.0"
+date-released: "2026-11-26"
+license: "MIT"
+repository-code: "https://github.com/lluiseriksson/openai-valiant-hierarchy-grids-certificates"

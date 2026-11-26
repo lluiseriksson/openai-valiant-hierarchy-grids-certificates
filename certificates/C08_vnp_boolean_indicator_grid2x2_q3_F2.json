@@ -1,0 +1,59 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C08",
+  "paper_reference": "Sec. 4 (p. 10): Characteristic-2 VNP Boolean-indicator encoding of Z_{G_2,3} over F_2",
+  "mode": "grid_balanced_cut_and_isoperimetry",
+  "payload": {
+    "submode": "vnp_boolean_indicator_sum",
+    "field_prime": 2,
+    "grid_side_r": 2,
+    "alphabet_q": 3,
+    "vertex_tables": [
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "expected_state_sum": 1
+  }
+}

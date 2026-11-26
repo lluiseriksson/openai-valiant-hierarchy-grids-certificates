@@ -1,0 +1,29 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C09",
+  "paper_reference": "Theorem 5.1 & Eq. (5.1) (p. 11): Complete binary tree T_3 telescoping identity & max min-boundary 2 at k=2",
+  "mode": "binary_tree_telescoping_and_abp",
+  "payload": {
+    "submode": "tree_telescoping_boundary",
+    "tree_levels_h": 3,
+    "witness_subsets": [
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        4,
+        6
+      ]
+    ],
+    "expected_max_min_boundary": 2,
+    "expected_hardest_k": 2
+  }
+}

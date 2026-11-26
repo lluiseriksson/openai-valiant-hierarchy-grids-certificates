@@ -1,0 +1,7 @@
+name = "ValiantHierCert"
+version = "0.1.0"
+defaultTargets = ["ValiantHierCert"]
+
+[[lean_lib]]
+name = "ValiantHierCert"
+moreLeanArgs = ["-j", "1"]

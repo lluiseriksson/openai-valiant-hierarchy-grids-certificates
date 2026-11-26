@@ -1,0 +1,13 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C05",
+  "paper_reference": "Theorem 4.1 & Lemma 4.2 (p. 8-9): Exhaustive balanced-cut isoperimetry over all 336 cuts of 3x3 grid",
+  "mode": "grid_balanced_cut_and_isoperimetry",
+  "payload": {
+    "submode": "grid_isoperimetry_audit",
+    "grid_side_r": 3,
+    "exhaustive": true,
+    "expected_min_boundary": 3,
+    "expected_balanced_count": 336
+  }
+}

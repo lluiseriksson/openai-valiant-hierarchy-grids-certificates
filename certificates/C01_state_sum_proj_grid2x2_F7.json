@@ -1,0 +1,60 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C01",
+  "paper_reference": "Eq. (1.1), Sec. 2-3 (p. 2, 5-6): 2x2 grid state sum, subgraph projection to P_3, cut rank 2^2=4 over F_7",
+  "mode": "state_sum_and_euclidean_price",
+  "payload": {
+    "submode": "state_sum_projection_and_cut",
+    "field_prime": 7,
+    "num_vertices": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "alphabet_q": 2,
+    "kept_vertices": [
+      0,
+      1,
+      3
+    ],
+    "kept_edge_indices": [
+      0,
+      1
+    ],
+    "sub_alphabet_q": 2,
+    "sub_tables": [
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        4,
+        2,
+        5
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "cut_C": [
+      0,
+      2
+    ]
+  }
+}

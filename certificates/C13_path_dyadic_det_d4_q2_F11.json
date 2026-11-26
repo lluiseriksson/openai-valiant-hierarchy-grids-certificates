@@ -1,0 +1,40 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C13",
+  "paper_reference": "Lemma 6.3 & Sec. 6.3 (p. 13-16): d=4 dyadic scale placement & 7x7 cofactor determinant over F_11",
+  "mode": "path_multiscale_det_and_minors",
+  "payload": {
+    "submode": "dyadic_scale_placement_and_det",
+    "path_vertices_d": 4,
+    "tau_leaf_order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "field_prime": 11,
+    "alphabet_q": 2,
+    "path_tables": [
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        5,
+        2,
+        1,
+        6
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  }
+}

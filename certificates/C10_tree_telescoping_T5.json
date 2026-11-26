@@ -1,0 +1,57 @@
+{
+  "schema_version": "VALIANT-HIER-CERT-1.0",
+  "certificate_id": "C10",
+  "paper_reference": "Theorem 5.1 & Eq. (5.1) (p. 11): Complete binary tree T_5 (d=31) telescoping identity & max min-boundary 3 at k=11",
+  "mode": "binary_tree_telescoping_and_abp",
+  "payload": {
+    "submode": "tree_telescoping_boundary",
+    "tree_levels_h": 5,
+    "witness_subsets": [
+      [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      [
+        4,
+        8,
+        9,
+        16,
+        17,
+        18,
+        19,
+        10,
+        20,
+        21,
+        22
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "expected_max_min_boundary": 3,
+    "expected_hardest_k": 11
+  }
+}
